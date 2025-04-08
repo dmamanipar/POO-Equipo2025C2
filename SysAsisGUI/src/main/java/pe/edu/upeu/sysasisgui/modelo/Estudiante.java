@@ -8,7 +8,9 @@ import javafx.beans.property.StringProperty;
 public class Estudiante {
     private StringProperty nombre=new SimpleStringProperty();
     private BooleanProperty estado=new SimpleBooleanProperty();
+
     private StringProperty codigo=new SimpleStringProperty();
+    private StringProperty apellido=new SimpleStringProperty();
 
     public String getCodigo() {
         return codigo.get();
@@ -21,7 +23,6 @@ public class Estudiante {
     public void setCodigo(String codigo) {
         this.codigo.set(codigo);
     }
-
 
     public Estudiante(String nombre) {
         this.nombre.set(nombre);
