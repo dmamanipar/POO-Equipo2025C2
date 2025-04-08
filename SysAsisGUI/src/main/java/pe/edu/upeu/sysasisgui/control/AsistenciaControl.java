@@ -16,10 +16,10 @@ import pe.edu.upeu.sysasisgui.servicio.EstudianteServicio;
 public class AsistenciaControl {
 
     @FXML
-    private Button btnGuardar;
+    private Button btnGuardar; // botn de guardar
 
     @FXML
-    private TableView<Estudiante> tableRegAsis;
+    private TableView<Estudiante> tableRegAsis; // taba de registro
     @FXML
     private TableView<Asistencia> tableListAsis;
 
