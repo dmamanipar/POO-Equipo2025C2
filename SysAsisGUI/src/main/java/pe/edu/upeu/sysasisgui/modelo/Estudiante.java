@@ -8,6 +8,7 @@ import javafx.beans.property.StringProperty;
 public class Estudiante {
     private StringProperty nombre=new SimpleStringProperty();
     private BooleanProperty estado=new SimpleBooleanProperty();
+    private StringProperty apellido=new SimpleStringProperty();
 
     public Estudiante(String nombre) {
         this.nombre.set(nombre);
