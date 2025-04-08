@@ -9,6 +9,7 @@ public class Estudiante {
     private StringProperty nombre=new SimpleStringProperty();
     private BooleanProperty estado=new SimpleBooleanProperty();
 
+
     public Estudiante(String nombre) {
         this.nombre.set(nombre);
     }
